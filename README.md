@@ -44,7 +44,8 @@ AI-Attention-Visualizer/
 ├── packages.txt
 └── README.md
 
-⚙️ How It Works
+## How It Works
+
 1. Image Upload
 
 The user uploads a JPG, JPEG, or PNG image through the Streamlit application.
@@ -131,26 +132,6 @@ with:
 tesseract-ocr
 
 This allows Tesseract OCR to be installed in the Streamlit Cloud environment.
-
-##  Application Workflow
-<img width="1051" height="837" alt="Screenshot 2026-09-29 224909" src="https://github.com/user-attachments/assets/06e16e5d-318b-420e-b2af-04a7769ea8f3" />
-<img width="988" height="867" alt="Screenshot 2026-09-29 224926" src="https://github.com/user-attachments/assets/62462039-faa0-4c83-88e1-3cc4f76bf67d" />
-<img width="1030" height="797" alt="Screenshot 2026-09-29 224939" src="https://github.com/user-attachments/assets/00adc5da-53f7-41ac-86b0-590f0aea8dc6" />
-<img width="1040" height="767" alt="Screenshot 2026-09-29 224952" src="https://github.com/user-attachments/assets/cbf36e30-fa63-4ef0-85d6-5c060a550983" />
-
-Upload Image
-      ↓
-   OCR Text
-      ↓
- Extract Words
-      ↓
-Word Embeddings
-      ↓
-Attention Calculation
-      ↓
-Attention Scores
-      ↓
-Word Attention Bars
 
 ##  Author
 
